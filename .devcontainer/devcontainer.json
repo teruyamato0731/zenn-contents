@@ -1,0 +1,9 @@
+{
+  "name": "zenn-devcontainer",
+  "dockerFile": "Dockerfile",
+  "remoteUser": "vscode",
+  "postStartCommand": "npx zenn preview",
+  "forwardPorts": [
+    8000
+  ]
+}
