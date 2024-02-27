@@ -5,5 +5,12 @@
   "postStartCommand": "npx zenn preview",
   "forwardPorts": [
     8000
-  ]
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "negokaz.zenn-editor"
+      ]
+    }
+  }
 }
